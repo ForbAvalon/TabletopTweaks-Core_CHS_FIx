@@ -195,16 +195,16 @@ namespace TabletopTweaks.Core.MechanicsChanges {
                 if (__result != __instance.DefaultName) { return; }
                 switch (descriptor) {
                     case (ModifierDescriptor)NaturalArmor.Bonus:
-                        __result = "Natural armor bonus";
+                        __result = "天生防御加值";
                         break;
                     case (ModifierDescriptor)NaturalArmor.Size:
-                        __result = "Natural armor size";
+                        __result = "天生防御体型加值";
                         break;
                     case (ModifierDescriptor)NaturalArmor.Racial:
-                        __result = "Natural armor racial";
+                        __result = "天生防御种族加值";
                         break;
                     case (ModifierDescriptor)NaturalArmor.Stackable:
-                        __result = "Natural armor stackable";
+                        __result = "天生防御可叠加值";
                         break;
                     case (ModifierDescriptor)Dodge.Strength:
                     case (ModifierDescriptor)Dodge.Dexterity:
@@ -212,10 +212,10 @@ namespace TabletopTweaks.Core.MechanicsChanges {
                     case (ModifierDescriptor)Dodge.Intelligence:
                     case (ModifierDescriptor)Dodge.Wisdom:
                     case (ModifierDescriptor)Dodge.Charisma:
-                        __result = "Dodge";
+                        __result = "闪避";
                         break;
                     case (ModifierDescriptor)Enhancement.Weapon:
-                        __result = "Enhancement";
+                        __result = "增强";
                         break;
                     case (ModifierDescriptor)Untyped.Strength:
                     case (ModifierDescriptor)StatBonus.Strength:
@@ -242,7 +242,7 @@ namespace TabletopTweaks.Core.MechanicsChanges {
                         __result = Game.Instance.BlueprintRoot.LocalizedTexts.UserInterfacesText.CharacterSheet.Charisma;
                         break;
                     case (ModifierDescriptor)Untyped.Age:
-                        __result = "Age";
+                        __result = "年龄";
                         break;
                     case (ModifierDescriptor)Untyped.WeaponTraining:
                     case (ModifierDescriptor)Untyped.WeaponFocus:
@@ -252,7 +252,7 @@ namespace TabletopTweaks.Core.MechanicsChanges {
                     case (ModifierDescriptor)Untyped.SchoolMastery:
                     case (ModifierDescriptor)Untyped.VarisianTattoo:
                     case (ModifierDescriptor)Untyped.Monk:
-                        __result = "Other";
+                        __result = "其他";
                         break;
                 }
             }
