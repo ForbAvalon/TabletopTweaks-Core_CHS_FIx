@@ -1,3 +1,18 @@
+# Version 0.7.12
+* Fixed issue with missing log creators creating stutters and bloated logs.
+
+# Version 0.7.11
+* Fix for broken type issue in some game versions.
+
+# Version 0.7.10
+* Adjusted BaseSizeAdjustment to better handle multiple adjustments.
+
+# Version 0.7.9
+* Added BuffEnchantAnyWeaponTTT
+
+## Version 0.7.8
+* Update to weapon training handling
+
 ## Version 0.7.7
 * Updates to Mithril handling
 

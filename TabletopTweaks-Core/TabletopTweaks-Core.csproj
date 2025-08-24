@@ -179,6 +179,7 @@
     <Compile Include="NewComponents\AddContextCasterLevelBonus.cs" />
     <Compile Include="NewComponents\AddSpecificSpellConversion.cs" />
     <Compile Include="NewComponents\BonusStatDamageMultiplerReplacement.cs" />
+    <Compile Include="NewComponents\OwlcatReplacements\BuffEnchantAnyWeaponTTT.cs" />
     <Compile Include="NewComponents\SecondaryWeaponOverride.cs" />
     <Compile Include="NewComponents\OwlcatReplacements\ImprovedCriticalMythicParametrizedTTT.cs" />
     <Compile Include="NewComponents\AbilitySpecific\MaximizedCriticalComponent.cs" />
@@ -229,6 +230,7 @@
     <Compile Include="NewUnitParts\UnitPartIgnoreBuffDescriptorImmunity.cs" />
     <Compile Include="NewUnitParts\UnitPartSplitHex.cs" />
     <Compile Include="Utilities\DLCTools.cs" />
+    <Compile Include="Utilities\MountTools.cs" />
     <Compile Include="Utilities\VenderTools.cs" />
     <Compile Include="Utilities\WildShapeTools.cs" />
     <EmbeddedResource Include="Config\Blueprints.json" />
