@@ -88,23 +88,12 @@ namespace TabletopTweaks.Core.NewComponents.OwlcatReplacements {
 
             Dictionary<ModifierDescriptor, int> CLBonuses = new Dictionary<ModifierDescriptor, int>();
             foreach (Feature feature in SchoolMasteryFeatures) {
-                var bonusDC = ((SchoolMasteryParametrized)feature.BlueprintComponents.Find((BlueprintComponent x) => x is SchoolMasteryParametrized)).GetBonus(evt);
-                var descriptor = (ModifierDescriptor)Untyped.SchoolMastery;
-                if (CLBonuses.ContainsKey(descriptor)) {
-                    if (CLBonuses[descriptor] < bonusDC) {
-                        CLBonuses[descriptor] = bonusDC;
-                    }
-                } else {
-                    CLBonuses.Add(descriptor, bonusDC);
-                }
-            }
-            foreach (Feature feature in SchoolMasteryFeatures) {
-
                 var bonusDC = 0;
                 var descriptor = ModifierDescriptor.None;
 
                 if (feature.GetComponent<SchoolMasteryParametrized>()) {
                     bonusDC = feature.GetComponent<SchoolMasteryParametrized>().GetBonus(evt);
+                    descriptor = (ModifierDescriptor)Untyped.SchoolMastery;
                 } else if(feature.GetComponent<BonusCasterLevelParametrized>()) {
                     bonusDC = feature.GetComponent<BonusCasterLevelParametrized>().Bonus.Calculate(base.Context);
                     descriptor = feature.GetComponent<BonusCasterLevelParametrized>().Descriptor;
