@@ -1,3 +1,6 @@
+# Version 0.7.14
+* Rewrote Expanded Arsenal to fix stacking bugs.
+
 # Version 0.7.13
 * Minor updates to spell lists to fix some missed cases.
 
