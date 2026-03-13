@@ -180,6 +180,7 @@
     <Compile Include="NewComponents\AddSpecificSpellConversion.cs" />
     <Compile Include="NewComponents\BonusStatDamageMultiplerReplacement.cs" />
     <Compile Include="NewComponents\OwlcatReplacements\BuffEnchantAnyWeaponTTT.cs" />
+    <Compile Include="NewComponents\OwlcatReplacements\ExpandedArsenalMagicSchoolsTTT.cs" />
     <Compile Include="NewComponents\SecondaryWeaponOverride.cs" />
     <Compile Include="NewComponents\OwlcatReplacements\ImprovedCriticalMythicParametrizedTTT.cs" />
     <Compile Include="NewComponents\AbilitySpecific\MaximizedCriticalComponent.cs" />
